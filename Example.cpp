@@ -5,7 +5,8 @@
 int main()
 {
     // Declare circular buffer size 5 float
-    CircuralBuffer<float> buffer(5);
+    int bufferSize = 5;
+    CircuralBuffer<float> buffer(bufferSize);
     
     // Write data to buffer
     buffer.writeToBuffer(1.5);
