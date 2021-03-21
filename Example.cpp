@@ -1,4 +1,3 @@
-#include <iostream>
 #include "CircuralBuffer.h"
 
 // Simple example with CircuralBuffer
